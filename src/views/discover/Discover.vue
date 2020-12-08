@@ -1,25 +1,27 @@
 
 <template>
   <div id="app">
-  <section id="s1" class=" row wrap blue">
+  <section id="s1" class=" row wrap">
     <img id="circle" src="../../assets/media/img/circle.svg">
-    <div class="col-10 offset-1 red start-center">
+    <div class="col-10 offset-1 center">
+      <div id="container_s1" class="col-12 x-center title row">
+        <div class=" no-padding col-8 start-center column">
+          <h1 id="titrel1">Découvrir notre concept</h1>
+          <h1 id="titrel2">Le projet <span class="yellow">Open Innov EPSI</span></h1>
+            <div id="subtitle" class=" no-padding col-7">
+              <p id="description">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
+                aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh
+                . Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+              </p>
 
+            </div>
+        </div>
+        <div class=" col-4 center">
+          <img id="preview" src="../../assets/media/img/preview.png">
+        </div>
 
-      <div id="container_s1" class="purple title">
-        <h1 id="titrel1">Découvrir notre concept</h1>
-        <h1 id="titrel2">Le projet Open Innov EPSI</h1>
-        <div class="blue subtitle">
-          <p>
-            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-            Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
-            aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh
-            . Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-          </p>
-        </div>
-        <div class="green center col-6">
-          <img  src="../../assets/media/img/preview.png">
-        </div>
 
       </div>
 

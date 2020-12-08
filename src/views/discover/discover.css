@@ -22,8 +22,8 @@ section {
 
 .start-center {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
 
 
 }
@@ -34,7 +34,9 @@ section {
 }
 
 .x-center {
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .y-center {
@@ -53,6 +55,10 @@ section {
 .green{
     background-color: green;
 }
+
+.yellow{
+    color:#eca63e ;
+}
 .title{
 
     width: 50vw;
@@ -70,7 +76,7 @@ section {
     position: absolute;
     right: -30vh;
     top: 70vh;
-    z-index: 100;
+    z-index: 1000;
 }
 
 
@@ -78,18 +84,36 @@ section {
     font-size: 9vh;
     font-family: "Franklin Gothic Medium";
     font-weight: bold;
+    color: #3D3D3D;
 }
 #titrel2 {
-    font-size: 7vh;
+    font-size: 6.75vh;
     font-family: "Franklin Gothic Medium";
     font-weight: bold;
+    color: #3D3D3D;
 }
 
-.subtitle{
-    width: 35vw;
+#subtitle{
+    height: 20vh;
+    margin-top: 5vh;
+
 }
 
-#container_s1{
-    width: 100%;
+#preview{
+    margin-right: 30vh;
+    margin-top: 30vh;
+
+}
+#description{
+    font-family: "Franklin Gothic Medium";
+    line-height: 4vh;
+    font-size: 3.5vh;
+    font-weight: lighter;
+    color: #3D3D3D;
+    text-align: left;
+
 }
 
+.no-padding{
+    padding: 0!important;
+}
