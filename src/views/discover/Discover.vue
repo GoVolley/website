@@ -1,4 +1,3 @@
-
 <template>
 
   <div id="app">
@@ -146,13 +145,7 @@
 
     </div>
   </div>
-
-
 </section>
-
-
-
-
   </div>
 </template>
 

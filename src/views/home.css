@@ -1,0 +1,56 @@
+#accueil
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    background: url(../assets/img/background.png);
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#accueil #txt-ct
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#accueil h1, #accueil h1 p
+{
+    color: #353535;
+    font-size: 3rem;
+    font-weight: bold;
+    white-space: pre-line;
+    margin: 0;
+}
+
+#accueil h1 span 
+{
+    color: #FCB040;
+}
+
+#accueil #preview
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 40vw;
+}
+
+@media screen and (max-width: 768px)
+{
+    #accueil h1, #accueil h1 p { font-size: 2.5rem; }
+    #accueil #preview { width: 100vw; }
+}
+
+@media screen and (max-width: 576px)
+{
+    #accueil h1, #accueil h1 p{ font-size: 2rem; }
+    #accueil #preview { width: 150vw; }
+}
