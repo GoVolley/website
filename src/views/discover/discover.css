@@ -19,6 +19,9 @@ section {
     display: flex;
     flex-direction: column;
 }
+.row{
+    display: flex;
+}
 
 .start-center {
     display: flex;
@@ -31,6 +34,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.center-end{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .x-center {
@@ -72,6 +80,9 @@ section {
     line-height: 7vh;
 
 }
+#container_s1{
+    height: 55vh;
+}
 #circle{
     position: absolute;
     right: -30vh;
@@ -79,8 +90,41 @@ section {
     z-index: 1000;
 }
 
+#circle1{
+    position: absolute;
+    left: -54vh;
+    top: 370vh;
+    z-index: 1000;
+}
 
-#titrel1 {
+#rectangle{
+
+    position: absolute;
+    left: -60vh;
+    top: 128vh;
+    z-index: 10;
+
+}
+#rectangle1{
+
+    position: absolute;
+    right: -123vh;
+    top: 250vh;
+    z-index: 10;
+
+}
+
+#plage{
+    height:95vh;
+    position: absolute;
+    right: 0;
+    top: 202.5vh;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+
+.titleC {
     font-size: 9vh;
     font-family: "Franklin Gothic Medium";
     font-weight: bold;
@@ -93,7 +137,7 @@ section {
     color: #3D3D3D;
 }
 
-#subtitle{
+.subtitle{
     height: 20vh;
     margin-top: 5vh;
 
@@ -104,7 +148,7 @@ section {
     margin-top: 30vh;
 
 }
-#description{
+.description{
     font-family: "Franklin Gothic Medium";
     line-height: 4vh;
     font-size: 3.5vh;
@@ -116,4 +160,174 @@ section {
 
 .no-padding{
     padding: 0!important;
+}
+
+#group{
+    height: 100vh;
+    z-index: 100;
+}
+
+.titleA{
+    font-size: 6.75vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    z-index: 1000;
+}
+
+.titleB{
+    font-size: 4.5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+
+}
+
+.titleD{
+    font-size: 8.5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    z-index: 1000;
+}
+
+.titleE{
+    font-size: 7.5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    z-index: 1000;
+}
+
+section div {
+    height: 100vh;
+}
+
+.chiffres{
+    height: 10vh;
+}
+
+.keynumbers{
+    font-size: 13vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: lighter;
+    color: #eca63e;
+    line-height: 10vh;
+    z-index: 1000;
+}
+
+.subnumbers{
+    font-size: 4vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: 100;
+    color: #eca63e;
+    z-index: 1000;
+    line-height: 2vh;
+}
+
+#txt-number{
+    margin-left: 5vw;
+}
+
+#title-bottom{
+    height: 40vh;
+}
+
+#title-bottom h1 {
+    font-size: 14vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+
+}
+#title-bottom h2 {
+    font-size: 7.5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color:#eca63e;
+
+}
+
+#socials{
+    height: 60vh;
+}
+
+.download, .socials{
+    height: 100%!important;
+}
+
+.container-download {
+    width: 100%;
+    flex-direction: column;
+    height: 35vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    border: 2px solid rgba(218, 223, 225, 0.5);
+}
+.container-socials{
+    width: 80%;
+    height: 35vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 40px;
+    border: 2px solid rgba(218, 223, 225, 0.5);
+
+}
+.download{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.container-download div {
+    height: auto;
+}
+#apple {
+    height: 80px;
+}
+
+#google{
+    height: 120px;
+}
+
+.reseaux{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+
+#insta{
+    height: auto;
+    width: 40%;
+}
+
+#twitter{
+    height: auto;
+    width: 40%;
+}
+
+#discord{
+    height: auto;
+    width: 220px;
+}
+
+#container-insta-discord{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
 }
