@@ -3,6 +3,10 @@ section {
     margin: 0 !important;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .margin-around {
     display: flex;
     margin: 20px;
@@ -72,16 +76,97 @@ section {
     width: 50vw;
 }
 
+.titleA {
+    font-size: 9vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    margin: 0;
+}
+
+.titleB{
+    font-size: 8.5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    z-index: 1000;
+    margin: 0;
+}
+
+.titleC{
+    font-size: 7.5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    z-index: 1000;
+    margin: 0;
+}
+.titleD{
+    font-size: 5vh;
+    font-family: "Franklin Gothic Medium";
+    font-weight: bold;
+    color: #3D3D3D;
+    z-index: 1000;
+    margin: 0;
+}
+
+.titleE{
+    font-size: 3.5vh;
+    font-family: "Franklin Gothic";
+    color: #3D3D3D;
+    line-height: 4vh;
+    z-index: 1000;
+    margin: 0;
+
+}
+.first-plan{
+    z-index: 1000;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+#preview{
+    position: absolute;
+    right: 0;
+    top: 20%;
+}
+
 #s1{
     overflow: hidden;
     position: relative;
-}
-#s1 div div h1{
-    line-height: 7vh;
 
 }
-#container_s1{
-    height: 55vh;
+.subtitle_discover{
+    max-width: 50%;
+    min-width: 50%;
+
+}
+.discover-container{
+    height: 100vh;
+    width: 100%;
+}
+
+.discover_txt{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    max-height: 100vh;
+}
+.discover-title{
+    margin-bottom: 5%;
+}
+.container-txt-s2{
+    padding-left: 7.5%!important;
+    padding-right: 0!important;
+}
+.title-s2{
+    margin-bottom: 5%;
 }
 #circle{
     position: absolute;
@@ -124,12 +209,6 @@ section {
 }
 
 
-.titleC {
-    font-size: 9vh;
-    font-family: "Franklin Gothic Medium";
-    font-weight: bold;
-    color: #3D3D3D;
-}
 #titrel2 {
     font-size: 6.75vh;
     font-family: "Franklin Gothic Medium";
@@ -137,17 +216,8 @@ section {
     color: #3D3D3D;
 }
 
-.subtitle{
-    height: 20vh;
-    margin-top: 5vh;
 
-}
 
-#preview{
-    margin-right: 30vh;
-    margin-top: 30vh;
-
-}
 .description{
     font-family: "Franklin Gothic Medium";
     line-height: 4vh;
@@ -167,40 +237,24 @@ section {
     z-index: 100;
 }
 
-.titleA{
-    font-size: 6.75vh;
-    font-family: "Franklin Gothic Medium";
-    font-weight: bold;
-    color: #3D3D3D;
-    z-index: 1000;
-}
-
-.titleB{
-    font-size: 4.5vh;
-    font-family: "Franklin Gothic Medium";
-    font-weight: bold;
-    color: #3D3D3D;
-
-}
-
-.titleD{
-    font-size: 8.5vh;
-    font-family: "Franklin Gothic Medium";
-    font-weight: bold;
-    color: #3D3D3D;
-    z-index: 1000;
-}
-
-.titleE{
-    font-size: 7.5vh;
-    font-family: "Franklin Gothic Medium";
-    font-weight: bold;
-    color: #3D3D3D;
-    z-index: 1000;
-}
-
-section div {
+.container-s3{
     height: 100vh;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-title-s3{
+    margin-bottom: 10%;
+
+}
+
+.FullHeight{
+    height: 100vh;
+}
+.container-title-s4{
+    margin-bottom: 10%;
 }
 
 .chiffres{
@@ -265,7 +319,7 @@ section div {
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    border: 2px solid rgba(218, 223, 225, 0.5);
+    box-shadow: rgba(0,0,0,0.16) 5px 5px 15px;
 }
 .container-socials{
     width: 80%;
@@ -276,7 +330,7 @@ section div {
     align-items: center;
     flex-direction: column;
     border-radius: 40px;
-    border: 2px solid rgba(218, 223, 225, 0.5);
+    box-shadow: rgba(0,0,0,0.16) 5px 5px 15px;
 
 }
 .download{
@@ -310,15 +364,19 @@ section div {
 }
 
 #insta{
-    height: auto;
-    width: 40%;
+    height: 100%;
+    width: auto;
+
 }
 
 #twitter{
-    height: auto;
-    width: 40%;
-}
+    height: 100%;
+    width: auto;
 
+}
+.social-btns{
+    height: 100%;
+}
 #discord{
     height: auto;
     width: 220px;

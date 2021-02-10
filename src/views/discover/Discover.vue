@@ -2,75 +2,79 @@
 <template>
 
   <div id="app">
-  <section id="s1" class=" row wrap">
-    <div class="col-10 offset-1 center">
-      <div  class="col-12 x-center title row">
-        <div id="container_s1" class=" no-padding col-8 start-center column">
-          <h1 class="titleC">Découvrir notre concept</h1>
-          <h1 class="titleA">Le projet <span class="yellow">Open Innov EPSI</span></h1>
-            <div class=" no-padding col-7 subtitle">
-              <p class="description">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
-                aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh
-                . Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-              </p>
-            </div>
+  <section id="s1">
+    <img class="d-none d-xl-block" id="preview" alt="GoVolley preview" src="../../assets/media/img/preview.png">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 offset-sm-0 offset-md-0 row center discover-container">
+      <div class="discover_txt">
+        <div class="discover-title">
+          <p class="titleA">Decouvrir notre concept</p>
+          <p class="titleD">Le projet <span class="yellow">Open Innov EPSI</span></p>
         </div>
-        <div class=" col-4 center">
-          <img id="preview" src="../../assets/media/img/preview.png">
+        <div class="subtitle_discover">
+          <p class="titleE ">Praesent sapien massa, convallis a pellentesque nec, egestas.
+            Praesent sapien massa, convallis a pellentesque nec, egestas.
+            Praesent sapien massa, convallis a nec, egestas.
+            Vivamus magna justo, lacinia eget consectetur sed,
+            at tellus. Curabitur arcu erat, accumsan id imperdiet et.</p>
         </div>
       </div>
     </div>
+
   </section>
 
   <section id="s2">
-    <img id="circle" src="../../assets/media/img/circle.svg">
-    <div class="col-10 offset-1 no-padding row ">
-      <div id="group" class="col-4 purple center ">
+    <img class="d-none d-xl-block" id="circle" src="../../assets/media/img/circle.svg">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 offset-sm-0 offset-md-0 row no-padding">
+      <div id="group" class="col-sm-12 col-md-12 col-lg-6 col-xl-4 purple no-padding">
         <h1>Photo</h1>
       </div>
-      <div class="col-1"></div>
-      <div class="col-7 start-center column">
-        <h2 class="titleA">Une application faite</h2>
-        <h2 class="titleB">par une équipe <span class="yellow">d'étudiants</span> et de <span class="yellow">volleyeurs</span></h2>
-        <div class="subtitle">
-          <h2 id class="description "> Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-          Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
-          aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh
-          . Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-          </h2>
-      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-8 start-center column container-txt-s2">
+        <div class="title-s2">
+          <p class="titleC">Une application faite</p>
+          <p class="titleD">par une équipe <span class="yellow">d'étudiants</span> et de <span class="yellow">volleyeurs</span></p>
+        </div>
+        <div class="first-plan">
+          <p class="titleE ">Praesent sapien massa, convallis a pellentesque nec, egestas.
+            Praesent sapien massa, convallis a pellentesque nec, egestas.
+            Praesent sapien massa, convallis a nec, egestas.
+            Vivamus magna justo, lacinia eget consectetur sed,
+            at tellus. Curabitur arcu erat, accumsan id imperdiet</p>
+
+        </div>
+
       </div>
     </div>
 
   </section>
 
 <section id="s3">
-  <img id="rectangle" src="../../assets/media/img/rectanglehome.svg">
-  <img id="plage" src="../../assets/media/img/photoplage.jpg">
+  <img class="d-none d-xl-block" id="rectangle" src="../../assets/media/img/rectanglehome.svg">
+  <img class="d-none d-xl-block" id="plage" src="../../assets/media/img/photoplage.jpg">
   <div class="col-10 offset-1 no-padding row">
-    <div class="col-7 start-center column">
-      <h2 class="titleA">Créer une communauté</h2>
-      <h2 class="titleB">de <span class="yellow">volleyeuses et de volleyeurs</span></h2>
-      <div class="subtitle">
-        <h2 id class="description "> Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-          Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
-          aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh
-          . Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-        </h2>
+    <div class="container-s3 first-plan">
+      <div class="container-title-s3">
+        <p class="titleC">Créer une communauté</p>
+        <p class="titleD">de <span class="yellow">volleyeurs et volleyeuse</span></p>
+      </div>
+      <div>
+        <p class="titleE">Praesent sapien massa, convallis a pellentesque nec, egestas.
+          Praesent sapien massa, convallis a pellentesque nec, egestas.
+          Praesent sapien massa, convallis a nec, egestas.
+          Vivamus magna justo, lacinia eget consectetur sed,
+          at tellus. Curabitur arcu erat, accumsan id imperdiet</p>
       </div>
     </div>
+
   </div>
 
 </section>
 
 
 <section id="s4">
-  <div class="col-10 offset-1 no-padding row">
+  <div class="col-10 offset-1 no-padding row FullHeight">
     <div class="col-6 no-padding row center">
       <div class="col-12 no-padding  chiffres center-end">
-        <p class="titleC no-padding ">Go Volley, c'est...</p>
+        <p class="titleB no-padding ">Go Volley, c'est...</p>
       </div>
       <div class="col-5 no-padding chiffres center column ">
         <p class="keynumbers">450</p>
@@ -99,14 +103,17 @@
     </div>
 
     <div id="txt-number" class="col-5 start-center column no-padding">
-      <h2 class="titleD">Quelques chiffres</h2>
-      <h2 class="titleE"><span class="yellow">sur notre projet</span></h2>
+      <div class="container-title-s4">
+        <p class="titleB">Quelques chiffres</p>
+        <p class="titleD"><span class="yellow">sur notre projet</span></p>
+      </div>
+
       <div class="subtitle">
-        <h2 id class="description "> Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        <p id class="description "> Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
           Nulla quis lorem ut libero malesuada feugiat. Mauris blandit
           aliquet elit, eget tincidunt nibh pulvinar a. Sed porttitor lectus nibh
           . Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-        </h2>
+        </p>
       </div>
     </div>
   </div>
@@ -114,8 +121,8 @@
 </section>
 
 <section id="s5">
-  <img id="rectangle1" src="../../assets/media/img/rectanglehome.svg">
-  <img id="circle1" src="../../assets/media/img/circle.svg">
+  <img class="d-none d-xl-block" id="rectangle1" src="../../assets/media/img/rectanglehome.svg">
+  <img class="d-none d-xl-block" id="circle1" src="../../assets/media/img/circle.svg">
   <div class="col-10 offset-1 row no-padding">
     <div id="title-bottom" class="col-12 center column">
       <h1>Go Volley, it's time to play</h1>
@@ -126,8 +133,8 @@
         <div class="container-download">
           <p class="titleB">Notre application mobile</p>
           <div>
-            <img id="apple" src="../../assets/media/img/apple-logo.svg">
-            <img id="google" src="../../assets/media/img/google-play-logo.png">
+            <a href="#"><img id="apple" src="../../assets/media/img/apple-logo.svg"></a>
+            <a href="#"><img id="google" src="../../assets/media/img/google-play-logo.png"></a>
           </div>
         </div>
       </div>
@@ -136,10 +143,10 @@
           <p class="description">Nos réseaux sociaux</p>
           <div class="reseaux">
             <div id="container-insta-discord">
-              <img id="insta" src="../../assets/media/img/instagram.svg">
-              <img id="twitter" src="../../assets/media/img/twitter.svg">
+              <a  class="social-btns" href="https://www.instagram.com/govolleyapp/"><img id="insta" src="../../assets/media/img/instagram.svg"></a>
+              <a class="social-btns" href="https://twitter.com/home?lang=fr"><img id="twitter" src="../../assets/media/img/twitter.svg"></a>
             </div>
-            <img id="discord" src="../../assets/media/img/603px-Discord_logo.svg.png">
+            <a href="https://discord.gg/9REqg7gX"><img id="discord" src="../../assets/media/img/603px-Discord_logo.svg.png"></a>
           </div>
         </div>
       </div>
