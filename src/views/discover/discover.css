@@ -1,6 +1,8 @@
 section {
     min-height: 100vh;
     margin: 0 !important;
+    z-index: 1000;
+
 }
 
 body{
@@ -142,8 +144,7 @@ body{
 
 }
 .subtitle_discover{
-    max-width: 50%;
-    min-width: 50%;
+    width: 40%;
 
 }
 .discover-container{
@@ -157,6 +158,7 @@ body{
     justify-content: space-around;
     flex-direction: column;
     max-height: 100vh;
+    z-index: 1000;
 }
 .discover-title{
     margin-bottom: 5%;
@@ -167,12 +169,12 @@ body{
 }
 .title-s2{
     margin-bottom: 5%;
+    z-index: 1000;
 }
 #circle{
     position: absolute;
-    right: -30vh;
+    right: -40vh;
     top: 70vh;
-    z-index: 1000;
 }
 
 #circle1{
@@ -206,6 +208,7 @@ body{
     top: 202.5vh;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    z-index: 1000;
 }
 
 
@@ -235,6 +238,11 @@ body{
 #group{
     height: 100vh;
     z-index: 100;
+}
+
+.photo{
+    width: 80%;
+    height: 100%;
 }
 
 .container-s3{
@@ -388,4 +396,275 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 200px;
+}
+
+/* RESPONSIVE BREAKPOINT */
+
+@media only screen and (min-width: 1280px) {
+    /* For wide screens: */
+    .xLarge-1 {width: 8.33%;}
+    .xLarge-2 {width: 16.66%;}
+    .xLarge-3 {width: 25%;}
+    .xLarge-4 {width: 33.33%;}
+    .xLarge-5 {width: 41.66%;}
+    .xLarge-6 {width: 50%;}
+    .xLarge-7 {width: 58.33%;}
+    .xLarge-8 {width: 66.66%;}
+    .xLarge-9 {width: 75%;}
+    .xLarge-10 {width: 83.33%;}
+    .xLarge-11 {width: 91.66%;}
+    .xLarge-12 {width: 100%;}
+
+
+
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1279px) {
+    /* For desktop: */
+    .large-1 {width: 8.33%;}
+    .large-2 {width: 16.66%;}
+    .large-3 {width: 25%;}
+    .large-4 {width: 33.33%;}
+    .large-5 {width: 41.66%;}
+    .large-6 {width: 50%;}
+    .large-7 {width: 58.33%;}
+    .large-8 {width: 66.66%;}
+    .large-9 {width: 75%;}
+    .large-10 {width: 83.33%;}
+    .large-11 {width: 91.66%;}
+    .large-12 {width: 100%;}
+
+    #preview{
+        width: 40%;
+        top: 65vh;
+        right: -3vw;
+    }
+    #rectangle{
+        display: none!important;
+    }
+
+    .subtitle_discover{
+        width: 80%;
+
+    }
+    #circle{
+        right: -400px;
+        top: -400px;
+    }
+    .titleC{
+        font-size:55px ;
+    }
+    .titleD{
+        font-size:45px ;
+    }
+    .titleE{
+        font-size:25px ;
+    }
+    .title-s2{
+        padding: 20px;
+    }
+    .first-plan{
+        padding: 20px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+    .container-txt-s2{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    #plage{
+        right: -15vh;
+        top: 247vh;
+
+    }
+
+}
+
+@media only screen and (min-width: 520px) and (max-width: 979px) {
+    /* For tablets: */
+    .medium-1 {width: 8.33%;}
+    .medium-2 {width: 16.66%;}
+    .medium-3 {width: 25%;}
+    .medium-4 {width: 33.33%;}
+    .medium-5 {width: 41.66%;}
+    .medium-6 {width: 50%;}
+    .medium-7 {width: 58.33%;}
+    .medium-8 {width: 66.66%;}
+    .medium-9 {width: 75%;}
+    .medium-10 {width: 83.33%;}
+    .medium-11 {width: 91.66%;}
+    .medium-12 {width: 100%;}
+
+    #preview{
+        display: none;
+    }
+    .subtitle_discover{
+        width: 100%;
+
+    }
+    .title-s2{
+        padding: 20px;
+    }
+    .first-plan{
+        padding: 20px;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+    .container-txt-s2{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    #circle{
+        right: -400px;
+        top: -400px;
+    }
+
+    .titleC{
+        font-size:55px ;
+    }
+    .titleD{
+        font-size:45px ;
+    }
+    .titleE{
+        font-size:25px ;
+    }
+    #plage{
+       display: none;
+
+    }
+    .container-s3{
+        width: 100%;
+    }
+    #rectangle{
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 260px) and (max-width: 519px) {
+    /* For mobile: */
+    .small-1 {width: 8.33%;}
+    .small-2 {width: 16.66%;}
+    .small-3 {width: 25%;}
+    .small-4 {width: 33.33%;}
+    .small-5 {width: 41.66%;}
+    .small-6 {width: 50%;}
+    .small-7 {width: 58.33%;}
+    .small-8 {width: 66.66%;}
+    .small-9 {width: 75%;}
+    .small-10 {width: 83.33%;}
+    .small-11 {width: 91.66%;}
+    .small-12 {width: 100%;}
+
+    #preview{
+        width: 60%;
+        top: 80vh;
+        left: 23vw;
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+
+    #circle{
+        right: -400px;
+        top: -400px;
+    }
+    .titleA{
+        font-size: 45px;
+    }
+    .titleC{
+        font-size:55px ;
+    }
+    .titleD{
+        font-size: 35px;
+    }
+    .titleE{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .discover_txt{
+        padding: 20px;
+    }
+    .subtitle_discover{
+        width: 100%;
+    }
+    #plage{
+        display: none;
+
+    }
+    .container-s3{
+        width: 100%;
+    }
+    #rectangle{
+        display: none;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 259px) {
+    /* For watch: */
+    .xSmall-1 {width: 8.33%;}
+    .xSmall-2 {width: 16.66%;}
+    .xSmall-3 {width: 25%;}
+    .xSmall-4 {width: 33.33%;}
+    .xSmall-5 {width: 41.66%;}
+    .xSmall-6 {width: 50%;}
+    .xSmall-7 {width: 58.33%;}
+    .xSmall-8 {width: 66.66%;}
+    .xSmall-9 {width: 75%;}
+    .xSmall-10 {width: 83.33%;}
+    .xSmall-11 {width: 91.66%;}
+    .xSmall-12 {width: 100%;}
+
+    #preview{
+        display: none;
+    }
+    .subtitle_discover{
+        width: 100%;
+
+    }
+    .photo{
+        width: 100%;
+        height: 100%;
+    }
+    #circle{
+        right: -400px;
+        top: -400px;
+    }
+    .titleA{
+        font-size: 45px;
+    }
+    .titleD{
+        font-size: 35px;
+    }
+    .titleE{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .discover_txt{
+        padding: 20px;
+    }
+    .subtitle_discover{
+        width: 100%;
+    }
+    #plage{
+        display: none;
+
+    }
+    .container-s3{
+        width: 100%;
+    }
+    #rectangle{
+        display: none;
+    }
+
+
 }

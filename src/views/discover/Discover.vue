@@ -3,7 +3,7 @@
 
   <div id="app">
   <section id="s1">
-    <img class="d-none d-xl-block" id="preview" alt="GoVolley preview" src="../../assets/media/img/preview.png">
+    <img id="preview" alt="GoVolley preview" src="../../assets/media/img/preview.png">
     <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 offset-sm-0 offset-md-0 row center discover-container">
       <div class="discover_txt">
         <div class="discover-title">
@@ -23,12 +23,12 @@
   </section>
 
   <section id="s2">
-    <img class="d-none d-xl-block" id="circle" src="../../assets/media/img/circle.svg">
+    <img id="circle" src="../../assets/media/img/circle.svg">
     <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10 offset-lg-1 offset-xl-1 offset-sm-0 offset-md-0 row no-padding">
-      <div id="group" class="col-sm-12 col-md-12 col-lg-6 col-xl-4 purple no-padding">
-        <h1>Photo</h1>
+      <div id="group" class="col-sm-12 col-md-12 col-lg-12 col-xl-6 purple no-padding">
+        <div class="photo red"></div>
       </div>
-      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-8 start-center column container-txt-s2">
+      <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 start-center column container-txt-s2">
         <div class="title-s2">
           <p class="titleC">Une application faite</p>
           <p class="titleD">par une équipe <span class="yellow">d'étudiants</span> et de <span class="yellow">volleyeurs</span></p>
@@ -48,8 +48,8 @@
   </section>
 
 <section id="s3">
-  <img class="d-none d-xl-block" id="rectangle" src="../../assets/media/img/rectanglehome.svg">
-  <img class="d-none d-xl-block" id="plage" src="../../assets/media/img/photoplage.jpg">
+  <img id="rectangle" src="../../assets/media/img/rectanglehome.svg">
+  <img id="plage" src="../../assets/media/img/photoplage.jpg">
   <div class="col-10 offset-1 no-padding row">
     <div class="container-s3 first-plan">
       <div class="container-title-s3">
@@ -133,8 +133,8 @@
         <div class="container-download">
           <p class="titleB">Notre application mobile</p>
           <div>
-            <a href="#"><img id="apple" src="../../assets/media/img/apple-logo.svg"></a>
-            <a href="#"><img id="google" src="../../assets/media/img/google-play-logo.png"></a>
+            <a target="_blank" href="#"><img id="apple" src="../../assets/media/img/apple-logo.svg"></a>
+            <a target="_blank" href="#"><img id="google" src="../../assets/media/img/google-play-logo.png"></a>
           </div>
         </div>
       </div>
@@ -143,10 +143,10 @@
           <p class="description">Nos réseaux sociaux</p>
           <div class="reseaux">
             <div id="container-insta-discord">
-              <a  class="social-btns" href="https://www.instagram.com/govolleyapp/"><img id="insta" src="../../assets/media/img/instagram.svg"></a>
-              <a class="social-btns" href="https://twitter.com/home?lang=fr"><img id="twitter" src="../../assets/media/img/twitter.svg"></a>
+              <a target="_blank"  class="social-btns" href="https://www.instagram.com/govolleyapp/"><img id="insta" src="../../assets/media/img/instagram.svg"></a>
+              <a target="_blank" class="social-btns" href="https://twitter.com/home?lang=fr"><img id="twitter" src="../../assets/media/img/twitter.svg"></a>
             </div>
-            <a href="https://discord.gg/9REqg7gX"><img id="discord" src="../../assets/media/img/603px-Discord_logo.svg.png"></a>
+            <a target="_blank" href="https://discord.gg/9REqg7gX"><img id="discord" src="../../assets/media/img/603px-Discord_logo.svg.png"></a>
           </div>
         </div>
       </div>
